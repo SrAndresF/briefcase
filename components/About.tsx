@@ -4,10 +4,10 @@ export default function About() {
   const heard = '{ABOUT}'
   return (
     <div id="about">
-      <div className="ml-navbar  flex flex-wrap justify-start items-center text-center mt-44 flex-row ">
-        <div className="flex flex-col text-left">
-        <h3 className="font-medium text-5xl ml-7">{heard}</h3>
-        <p className=" w-1/3 ml-7 mt-12">
+      <div className="lg:ml-navbar  flex flex-wrap justify-start items-center text-center mt-44 flex-row ">
+        <div className="flex flex-col text-left ml-7">
+        <h3 className="font-medium text-5xl ">{heard}</h3>
+        <p className=" lg:w-1/3 ml-3 mt-12 mr-7 lg:mr-0">
         I always strive to ensure customer satisfaction, I have a great 
         sense of learning and a great knowledge of current technologies.
          I am able to work both in a team and independently. I am looking

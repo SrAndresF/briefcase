@@ -28,7 +28,7 @@ const Home = () => {
       </div>
       
       <div className="flex flex-row w-9/12  mt-3 ">
-        <button className="dark:hover:bg-hover-dark rounded-full bg-white dark:bg-principal-dark  w-12 h-12 flex flex-wrap justify-center items-center hover:transition-all hover:shadow-sm hover:translate-y-1 hover:translate-x-1 cursor-pointer" onClick={()=> setTheme(theme === 'light' ? 'dark' : 'light')} >
+        <button className=" ml-24 lg:ml-0 dark:hover:bg-hover-dark rounded-full bg-white dark:bg-principal-dark  w-12 h-12 flex flex-wrap justify-center items-center hover:transition-all hover:shadow-sm hover:translate-y-1 hover:translate-x-1 cursor-pointer" onClick={()=> setTheme(theme === 'light' ? 'dark' : 'light')} >
         {theme === 'light' ? 
         <FaMoon  className="bg-white text-lg"/>
         : <FaSun className="text-lg bg-inherit hover:bg-hover-dark rounded-full" /> }
@@ -39,7 +39,7 @@ const Home = () => {
       
       
 
-      <div className=" ml-navbar  flex flex-wrap justify-center items-center text-center my-44  ">
+      <div className=" lg:ml-navbar  flex flex-wrap justify-center items-center text-center my-44  ">
         <div >
           <div className=" float-right text-star animate-bounce">
           <FaStar />
@@ -58,14 +58,14 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-white dark:bg-hover-dark  flex  justify-between items-center ml-navbar p-2" >
-        <p  className="bg-white w-1/3 ml-3 dark:bg-hover-dark">i like to help people and take their business to a higher level, 
+      <div className="bg-white dark:bg-hover-dark  flex  justify-between items-center lg:ml-navbar p-2" >
+        <p  className="bg-white lg:w-1/3 lg:ml-3 dark:bg-hover-dark ml-3 mr-7">i like to help people and take their business to a higher level, 
         where they can show their products/services much more.
         more than being a developer, i want to be a friend to my 
         clients. for me, the most important thing is to be able to understand 
         what the client wants and, in this way, give more than what they want.</p>
-        <div className="bg-white flex flex-row mr-8 dark:bg-hover-dark">
-          <h4 className="bg-white  mr-2 dark:bg-hover-dark">down please</h4>
+        <div className="bg-white flex lg:flex-row mr-8 dark:bg-hover-dark flex-col">
+          <h4 className="bg-white  mr-2 dark:bg-hover-dark lg:font-normal font-bold">down please</h4>
           <FaArrowDown className="bg-white text-3xl mt-3 dark:bg-hover-dark"/>
         </div>
       </div>

@@ -1,12 +1,27 @@
-
 export default function Contact() {
   return (
-    <form>
-      <input type="text" name="full-name" />
-      <input type="mail" name="mail" />
-      <textarea name="description" cols={16} rows={6} >
-        <input type="submit" value="ENVIAR" />
-      </textarea>
+    <div className=" text-text dark:text-white flex justify-center items-center  lg:ml-36 lg:mt-0 mt-7">
+      <form action="https://formsubmit.co/60c6b53d2e3c0d0905178b11b57d4360" method="POST" className="flex flex-col" >
+      <h2 className=" text-3xl text-center">Contact Form</h2>
+
+      <h3 className="mt-3">Name:</h3>
+      <input type="text" name="name" className=" outline-none rounded-sm mt-3" />
+      <h3 className="mt-3">Email:</h3>
+      <input type="email" name="email" className=" outline-none rounded-sm mt-3" />
+      <h3 className="mt-3 mb-3">Description</h3>
+      <textarea name="description" cols={40} rows={7} className=" outline-none rounded-sm lg:w-96"  ></textarea>
+      <input type="submit" value="Enviar" className=" mt-3 p-2 bg-white hover:bg-star dark:bg-hover-dark rounded-lg hover:translate-x-1 hover:translate-y-1 dark:hover:bg-text-dark cursor-pointer" />
+
+      <input type="hidden" name="_next" value="http://localhost:3000/contact" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_subject" value="Portafolio Cliente!!!" />
+      <input type="text" name="_honey" style={{'display':'none'}} />
+      <input type="hidden" name="_autoresponse" value="your custom message" />
+
+
+
+
     </form>
-  )
+    </div>
+    )
 }

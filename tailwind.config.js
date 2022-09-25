@@ -20,6 +20,9 @@ module.exports = {
       spacing:{
         'navbar':'8.3%'
       },
+      fontFamily:{
+        'oswald' : ['Oswald', 'Georgia'],
+      },
     },
   },
   plugins: [],
