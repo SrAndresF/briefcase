@@ -24,7 +24,7 @@ const Home = () => {
           <FaInstagram  className="mr-2 h-5 w-5 cursor-pointer hover:transition-all hover:translate-y-1 dark:bg-principal-dark dark:hover:bg-hover-dark rounded-full" /></Link>
           <Link href="https://www.facebook.com/andres.valdes.35977/" target="_blank">
           <FaFacebook  className=" rounded-full mr-2 h-5 w-5 cursor-pointer hover:transition-all hover:translate-y-1 dark:bg-principal-dark dark:hover:bg-hover-dark" /></Link>
-          <Image src="/Logo.png" width="60" height="60" alt="Logo"  className="dark:bg-principal-dark"/>
+          <Image src="/img/Logo.png" width="60" height="60" alt="Andres Logo"  className="dark:bg-principal-dark "/>
       </div>
       
       <div className="flex flex-row w-9/12  mt-3 ">
