@@ -18,27 +18,27 @@ export default function Navbar() {
       <Menu.Items>
         <Menu.Item>
           {({ active }) => (
-            <Link href="/" ><li className=" mr-14  dark:bg-principal-dark border-b-4 border-text w-14  cursor-pointer mt-28  bg-white  hover:translate-x-1 hover:transition-all"><a className=" font-medium bg-white  dark:bg-principal-dark " >HOME</a></li></Link>
+            <Link href="/" ><li className=" mr-14 ml-3 dark:bg-principal-dark border-b-4 border-text w-14  cursor-pointer mt-28  bg-white  hover:translate-x-1 hover:transition-all"><a className=" font-medium bg-white  dark:bg-principal-dark" >HOME</a></li></Link>
           )}
         </Menu.Item>
         <Menu.Item>
           {({ active }) => (
-            <Link href="/#about" ><li className=" dark:bg-principal-dark border-b-4 border-text w-14  cursor-pointer  mt-12  bg-white   hover:translate-x-1 hover:transition-all"><a className=" font-medium bg-white dark:bg-principal-dark w-14" >ABOUT</a></li></Link>
+            <Link href="/#about" ><li className="ml-3 dark:bg-principal-dark border-b-4 border-text w-14  cursor-pointer  mt-12  bg-white   hover:translate-x-1 hover:transition-all"><a className=" font-medium bg-white dark:bg-principal-dark w-14" >ABOUT</a></li></Link>
           )}
         </Menu.Item>
         <Menu.Item>
           {({active})=>(
-            <Link href="/#proyects" ><li className=" dark:bg-principal-dark border-b-4 border-text w-14 mt-12  cursor-pointer bg-white  hover:translate-x-1 hover:transition-all"><a className=" font-medium bg-white  dark:bg-principal-dark " >PROYECTS</a></li></Link>
+            <Link href="/#proyects" ><li className="ml-3 dark:bg-principal-dark border-b-4 border-text w-14 mt-12  cursor-pointer bg-white  hover:translate-x-1 hover:transition-all"><a className=" font-medium bg-white  dark:bg-principal-dark " >PROYECTS</a></li></Link>
           )}
         </Menu.Item>
         <Menu.Item>
           {({active})=>(
-            <Link href="/#services" ><li className="mt-12 dark:bg-principal-dark border-b-4 w-14 border-text lg:mt-28 cursor-pointer bg-white  hover:translate-x-1 hover:transition-all"><a className=" font-medium bg-white  dark:bg-principal-dark" >SERVICES</a></li></Link>
+            <Link href="/#services" ><li className="ml-3 mt-12 dark:bg-principal-dark border-b-4 w-14 border-text lg:mt-28 cursor-pointer bg-white  hover:translate-x-1 hover:transition-all"><a className=" font-medium bg-white  dark:bg-principal-dark" >SERVICES</a></li></Link>
           )}
         </Menu.Item>
         <Menu.Item>
           {({active})=>(
-            <Link href="/contact" ><li className=" mb-28 mt-12 dark:bg-principal-dark border-b-4 border-text w-14  cursor-pointer bg-white  hover:translate-x-1 hover:transition-all"><a className=" font-medium bg-white  dark:bg-principal-dark" >CONTACT</a></li></Link>
+            <Link href="/contact" ><li className="ml-3 mb-28 mt-12 dark:bg-principal-dark border-b-4 border-text w-14  cursor-pointer bg-white  hover:translate-x-1 hover:transition-all"><a className=" font-medium bg-white  dark:bg-principal-dark" >CONTACT</a></li></Link>
           )}
         </Menu.Item>
       </Menu.Items>
