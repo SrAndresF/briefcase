@@ -12,7 +12,7 @@ export default function Contact() {
       <textarea name="description" cols={40} rows={7} className=" outline-none rounded-sm lg:w-96"  ></textarea>
       <input type="submit" value="Enviar" className=" mt-3 p-2 bg-white hover:bg-star dark:bg-hover-dark rounded-lg hover:translate-x-1 hover:translate-y-1 dark:hover:bg-text-dark cursor-pointer" />
 
-      <input type="hidden" name="_next" value="http://localhost:3000/contact" />
+      <input type="hidden" name="_next" value="http://andresg.vercel.app/contact" />
       <input type="hidden" name="_captcha" value="false" />
       <input type="hidden" name="_subject" value="Portafolio Cliente!!!" />
       <input type="text" name="_honey" style={{'display':'none'}} />
