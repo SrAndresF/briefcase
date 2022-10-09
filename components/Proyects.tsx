@@ -2,8 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-export default function Proyects() {
-  const heard = "{PROYECTS}";
+export default function Proyects({heard}:{heard:any}) {
 
   return (
     <div id="proyects">

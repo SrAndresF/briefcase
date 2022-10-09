@@ -1,20 +1,15 @@
 import Image from 'next/image';
 
 
-export default function About() {
+export default function About({heard, description}:{heard:any, description: any}) {
  
-  const heard = '{ABOUT}'
   return (
     <div id="about">
       <div className="lg:ml-navbar  flex flex-wrap justify-start items-center text-center mt-44 flex-row ">
         <div className="flex flex-col text-left ml-7">
         <h3 className="font-medium text-5xl ">{heard}</h3>
         <p className=" lg:w-1/3 ml-3 mt-12 mr-7 lg:mr-0">
-        I always strive to ensure customer satisfaction, I have a great 
-        sense of learning and a great knowledge of current technologies.
-         I am able to work both in a team and independently. I am looking
-         for the possibility of showing my worth in the company/business
-        /entrepreneurship with my knowledge.
+        {description}
         </p>
         </div>
 
@@ -89,4 +84,12 @@ export default function About() {
 
     </div>
   )
+}
+export async function getStaticProps({locale}:{locale: any}) {
+  const res = await import(`../lang/${locale}.json`)
+  return {
+    props: {
+      about: res.default.about,
+    }, 
+  }
 }

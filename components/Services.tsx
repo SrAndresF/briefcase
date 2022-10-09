@@ -1,6 +1,5 @@
 import Image from "next/image";
-export default function Services() {
-  const heard = '{SERVICES}';
+export default function Services({heard}:{heard:any}) {
   return (
     <div id="services">
       <div id="proyects">

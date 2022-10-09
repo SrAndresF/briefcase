@@ -1,0 +1,32 @@
+{
+
+  "home": {
+    "title" : "soy andres",
+    "descriptionTitle" : "desarrollador front-end y backend",
+    "description" : "me gusta ayudar a las personas y llevar su negocio a un nivel superior, donde puedan mostrar mucho más sus productos/servicios. más que ser un desarrollador, quiero ser un amigo de mis clientes. para mí lo más importante es poder entender lo que quiere el cliente y, de esta manera, dar más de lo que quiere.",
+    "button":"baja porfavor",
+    "aboutTitle" : "{SOBRE MI}",
+    "aboutDescription" : "Siempre me esfuerzo por garantizar la satisfacción del cliente, tengo una gran sentido del aprendizaje y un gran conocimiento de las tecnologías actuales. Soy capaz de trabajar tanto en equipo como de forma independiente. Estoy buscando por la posibilidad de demostrar mi valía en la empresa/negocio/emprendimiento con mis conocimientos.",
+    "proyectsTitle": "{PROYECTOS}",
+    "servicesTitle": "{SERVICIOS}",
+    "navHome":"INICIO",
+    "navAbout":"SOBRE",
+    "navProyects":"PROYECTOS",
+    "navServices":"SERVICIOS",
+    "navContact":"CONTACTO"
+  },
+
+  "contact": {
+    "title":"Formulario De Contacto",
+    "inputName":"Nombre",
+    "inputEmail":"Correo",
+    "inputDescription":"Descripcion",
+    "inputSubmit": "Enviar",
+    "cv": "descargar cv",
+    "navHome":"INICIO",
+    "navAbout":"SOBRE",
+    "navProyects":"PROYECTOS",
+    "navServices":"SERVICIOS",
+    "navContact":"CONTACTO"
+  }
+}

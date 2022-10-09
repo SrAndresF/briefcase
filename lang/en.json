@@ -1,0 +1,32 @@
+{
+  
+  "home": {
+    "title": "i´am andres",
+    "descriptionTitle": "developer front-end and backend",
+    "description": "i like to help people and take their business to a higher level, where they can show their products/services much more. more than being a developer, i want to be a friend to my  clients. for me, the most important thing is to be able to understand  what the client wants and, in this way, give more than what they want.",
+    "aboutTitle" : "{ABOUT}",
+    "aboutDescription": "I always strive to ensure customer satisfaction, I have a great sense of learning and a great knowledge of current technologies. I am able to work both in a team and independently. I am looking for the possibility of showing my worth in the company/business/entrepreneurship with my knowledge.",
+    "button": "down please",
+    "proyectsTitle": "{PROYECTS}",
+    "servicesTitle": "{SERVICES}",
+    "navHome":"HOME",
+    "navAbout":"ABOUT",
+    "navProyects":"PROYECTS",
+    "navServices":"SERVICES",
+    "navContact":"CONTACT"
+  },
+
+  "contact": {
+    "title":"Contact Form",
+    "inputName":"Name",
+    "inputEmail":"Email",
+    "inputDescription":"Description",
+    "inputSubmit": "Send",
+    "cv": "download cv",
+    "navHome":"HOME",
+    "navAbout":"ABOUT",
+    "navProyects":"PROYECTS",
+    "navServices":"SERVICES",
+    "navContact":"CONTACT"
+  }
+}
