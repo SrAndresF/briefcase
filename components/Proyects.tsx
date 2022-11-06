@@ -13,9 +13,9 @@ export default function Proyects({heard}:{heard:any}) {
       <div className="grid grid-rows-1 lg:grid-rows-3 grid-cols-1 lg:grid-cols-3 grid-flow-row gap-6 ml-7 mt-7 ">
         
         <div className="px-2 py-3 bg-white dark:bg-hover-dark rounded-2xl flex justify-center items-center flex-col hover:translate-x-1 hover:translate-y-1" >
-          <Image src="/img/lospinos.png" width={1366 / 4} height={699 / 4} alt="los pinos logo" />
-          <p className="mt-3" >LOS PINOS </p>
-          <h4 className=" text-star cursor-pointer " ><Link href={`/`}>Process..</Link></h4>
+          <Image src="/img/dragones.png" width={1366 / 4} height={699 / 4} alt="los pinos logo" />
+          <p className="mt-3" >Club Dragones</p>
+          <h4 className=" text-star cursor-pointer " ><a href="https://clubdragones.vercel.app/" target={"_blank"} >Click here</a></h4>
         </div>
         <div className="bg-white dark:bg-hover-dark rounded-2xl flex justify-center items-center flex-col hover:translate-x-1 hover:translate-y-1" >
           <Image src="/img/schedule.png" width={1366 / 4} height={699 / 4} alt="schedule" />
@@ -37,9 +37,12 @@ export default function Proyects({heard}:{heard:any}) {
           <p className="mt-3" >SEBASPORT</p>
           <h4 className=" text-star cursor-pointer " ><Link href={`/`}>Process..</Link></h4>
         </div>
-        <div className="bg-white dark:bg-hover-dark rounded-2xl flex justify-center items-center flex-col hover:translate-x-1 hover:translate-y-1" >
-          <h4>coming soon..</h4>
+        <div className="px-2 py-3 bg-white dark:bg-hover-dark rounded-2xl flex justify-center items-center flex-col hover:translate-x-1 hover:translate-y-1" >
+          <Image src="/img/lospinos.png" width={1366 / 4} height={699 / 4} alt="los pinos logo" />
+          <p className="mt-3" >LOS PINOS </p>
+          <h4 className=" text-star cursor-pointer " ><Link href={`/`}>Process..</Link></h4>
         </div>
+        
       </div>
     </div>
     </div>
